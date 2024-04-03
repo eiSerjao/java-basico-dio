@@ -1,7 +1,10 @@
-public class MInhaClasse {
+public class MinhaClasse {
   
-public static void main(String[] args) {
-  
+  public static void main(String[] args) {
+    System.out.println("Olá Mundo! Sejam bem-vindos.");
+
+
+
 }
 
 
