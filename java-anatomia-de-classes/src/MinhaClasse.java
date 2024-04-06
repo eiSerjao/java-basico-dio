@@ -3,17 +3,17 @@ public class MinhaClasse {
   public static void main(String[] args) {
     
     //Declarando Variáveis e Métodos
-    
-    String meuNome = "PauloSérgio";
+    String primeiroNome = "Paulo";
+    String segundoNome = "Sérgio";
 
-    int anoDeNascimento = 2022;
+    String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
+    System.out.println(nomeCompleto);
+  }
 
-    boolean verdadeira; = true;
-
-    anoFabricacao = 2018;
+  public static String nomeCompleto (String primeiroNome, String segundoNome){
+    return "Resultado do método " + primeiroNome.concat(" ").concat(segundoNome);
 
 
   }
-
 
 }
